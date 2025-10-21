@@ -1,1 +1,24 @@
+/* css/style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --primary: #00ff88;
+    --secondary: #0088ff;
+    --accent: #ff0088;
+    --bg-color: #0a0a0a;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --text-color: #ffffff;
+    --border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ... (Rest of your CSS code exactly as it is) ... */
+
+/* Platform Colors with Better Icons */
+.sms-boomer { color: #ff4444; }
+.tiktok { color: #ff0050; }
+.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+/* ... (Rest of your color classes) ... */
